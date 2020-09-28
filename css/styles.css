@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #fff;
+  margin: 0 0 5rem 0;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding: 0 0 5rem 0;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn{
+  margin: auto 1.5rem 2rem auto ;
+}
+
+.iphone{
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c6a;
+}
+
+
+/* testimonials Section */
+
+#testimonials{
+
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+.testimonial-section{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* press section */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta{
+  font-size: 3rem;
+  color: #fff;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.mar {
+  margin: 1rem;
+}
+
+.Copyright{
+  color: grey;
+  font-weight: 2;
+}
+
+
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .navbar {
+    text-align: right;
+  }
+}
